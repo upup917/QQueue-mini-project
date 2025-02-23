@@ -9,7 +9,7 @@ struct Node {
 
 struct Queue {
     struct Node* enq;
-    struct Node* qdata; /*sturct enq เป็น node ที่ชี้ node หลังสุดเพื่อ enqueue ส่วน qdata จะชี้ไปยัง node แรกเสมอเพื่อ dequeue อาจารย์ให้ตอบประมาณนี้ใช่ไหมครับ ผมงงคำถามเองตอนแรก */
+    struct Node* qdata; /*sturct enq เป็น node ที่ชี้ node หลังสุดเพื่อ enqueue ส่วน qdata จะชี้ไปยัง node แรกเสมอเพื่อ dequeue*/
 };
 
 struct Queue* createQueue() {
